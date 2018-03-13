@@ -1,0 +1,148 @@
+
+body {
+  font-family: Arial, Helvetica, Verdana;
+  font-size: small; /*1.5 em pero quedaría muy grande*/
+}
+
+#main-header {
+	background: #BCAAA4;
+	color: white;
+	height: 80px;
+  width: 750px; 
+	left: 0; 
+	top: 0;
+  position: fixed; 
+  flex: auto; 
+}
+    
+  	#main-header a {
+    		color: white; 
+    		padding-botton: 0.7em;
+  	}
+
+  		.site-name {
+    			color: white;
+   		}
+ 
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+    	flex: auto;
+  }
+	
+	
+  	#logo-header .site-name {
+		display: block;
+    		font-family: arial;
+		font-weight: 900;
+		font-size: 48px;
+  	}
+
+nav {
+	float: right;
+    	flex: auto;
+}
+
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+    		font-family: arial; 
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+      			flex: auto
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #333;
+				}
+
+footer {
+  	background: #BCAAA4;
+	color: white;
+	height: 35px;
+  	width: 750px; 
+	left: 0; 
+	bottom:0px;
+  	position: fixed; 
+  	flex: auto;
+}
+
+content1{
+ 	background: #333;
+	color: white;
+	height: 80%;
+  	width: 200px; 
+  	top: 100px;
+  	left: 5px; 
+	bottom:0px;
+  	position: fixed; 
+  	flex: auto;
+   	overflow:scroll; 
+}
+
+content2{
+  	background: #333;
+	color: white;
+	height: 80%;
+  	width: 330px; 
+ 	top: 100px;
+  	left: 210px; 
+	bottom:0px;
+  	position: fixed; 
+ 	flex: auto;
+ 	overflow:scroll; 
+}
+
+content3{
+  	background: #333;
+	color: white;
+	height: 80%;
+ 	 width: 200px; 
+  	top: 100px;
+  	left: 550px; 
+	bottom:0px;
+  	position: fixed; 
+  	flex: auto;
+  	overflow:scroll; 
+}
+
+table {
+    	border-collapse: collapse;
+      	margin-left: 3%;
+      	margin-right: 3%;
+	color: white;
+}
+
+table, th, td {
+    	border: 1px solid white;
+}
+
+img{
+  	height: 180px;
+  	width: 80%; 
+  
+}
+
+.img-border{
+  	border-color: #333;
+  	border-width: 3px;
+  	border-style: solid;
+  	border-radius: 10px;
+}
+
+
+.links:hover{
+  	background-color: #BCAAA4;
+}
