@@ -4,6 +4,9 @@ body {
   font-size: small; /*1.5 em pero quedaría muy grande*/
 }
 
+div {
+	float: left	
+}
 #main-header {
 	background: #BCAAA4;
 	color: white;
