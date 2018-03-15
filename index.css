@@ -8,30 +8,30 @@ body {
 	background: #BCAAA4;
 	color: white;
 	height: 80px;
-  width: 750px; 
-	left: 0; 
+  width: 750px;
+	left: 0;
 	top: 0;
-  position: fixed; 
-  flex: auto; 
+  position: fixed;
+  flex: auto;
 }
-    
+
   	#main-header a {
-    		color: white; 
+    		color: white;
     		padding-botton: 0.7em;
   	}
 
   		.site-name {
     			color: white;
    		}
- 
+
 #logo-header {
 	float: left;
 	padding: 15px 0 0 20px;
 	text-decoration: none;
     	flex: auto;
   }
-	
-	
+
+
   	#logo-header .site-name {
 		display: block;
     		font-family: arial;
@@ -49,21 +49,21 @@ nav {
 		padding: 0;
 		list-style: none;
 		padding-right: 20px;
-    		font-family: arial; 
+    		font-family: arial;
 	}
-	
+
 		nav ul li {
 			display: inline-block;
 			line-height: 80px;
       			flex: auto
 		}
-			
+
 			nav ul li a {
 				display: block;
 				padding: 0 10px;
 				text-decoration: none;
 			}
-			
+
 				nav ul li a:hover {
 					background: #333;
 				}
@@ -72,50 +72,76 @@ footer {
   	background: #BCAAA4;
 	color: white;
 	height: 35px;
-  	width: 750px; 
-	left: 0; 
+  	width: 750px;
+	left: 0;
 	bottom:0px;
-  	position: fixed; 
+  	position: fixed;
   	flex: auto;
 }
+.tab {
+  padding: 5px;
+}
 
-content1{
- 	background: #333;
+.content1 {
+ 	background: #464545eb;
 	color: white;
 	height: 80%;
-  	width: 200px; 
+  	width: 200px;
   	top: 100px;
-  	left: 5px; 
+  	left: 5px;
 	bottom:0px;
-  	position: fixed; 
+  	position: fixed;
   	flex: auto;
-   	overflow:scroll; 
+   	overflow:scroll;
 }
 
-content2{
-  	background: #333;
+.content2{
+  	background: #464545eb;
 	color: white;
 	height: 80%;
-  	width: 330px; 
+  	width: 330px;
  	top: 100px;
-  	left: 210px; 
+  	left: 210px;
 	bottom:0px;
-  	position: fixed; 
+  	position: fixed;
  	flex: auto;
- 	overflow:scroll; 
+ 	overflow:scroll;
 }
 
-content3{
-  	background: #333;
+.content3{
+  	background: #464545eb;
 	color: white;
 	height: 80%;
- 	 width: 200px; 
+ 	 width: 200px;
   	top: 100px;
-  	left: 550px; 
+  	left: 550px;
 	bottom:0px;
-  	position: fixed; 
+  	position: fixed;
   	flex: auto;
-  	overflow:scroll; 
+  	overflow:scroll;
+}
+.colC {
+  text-align: center;
+}
+.colC colTit {
+}
+
+.colC colCorp {
+}
+
+.colC colImg{
+  padding-top: 15px;
+}
+
+.colLink{
+  text-align: inherit;
+  color: #6598dc;
+}
+
+.colLink2{
+  text-align: inherit;
+  color: #6598dc;
+  padding-bottom: 20px;
 }
 
 table {
@@ -131,16 +157,21 @@ table, th, td {
 
 img{
   	height: 180px;
-  	width: 80%; 
-  
-}
+  	width: 80%;
 
+}
+.img{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
 .img-border{
   	border-color: #333;
   	border-width: 3px;
   	border-style: solid;
   	border-radius: 10px;
 }
+
 
 
 .links:hover{
