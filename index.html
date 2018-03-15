@@ -9,155 +9,156 @@
   </head>
 
   <body>
-    <header id="main-header">
+    <div class = "contenedor">
+      <header id="main-header">
 
-      <a id="logo-header" href="index.html">
-        <span class="site-name">HORARIOS</span>
-      </a>
+        <a id="logo-header" href="index.html">
+          <span class="site-name">HORARIOS</span>
+        </a>
 
-      <nav>
+        <nav>
+            <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Sesion.html">Iniciar/Registarse</a></li>
+                </ul>
+        </nav>
+      </header>
+      <div class = "content1">
+        <div class = "tab">
+        	<div class = "colC">
+            <h2>¿Estás interesado?</h2>
+          </div>
+
+       	  <h4>Esta herramienta nos permite:</h4>
+        	<ul>
+          	<li><em>Notificaciones</em></li>
+          	<li><em>Elementos de ayuda. </em></li>
+        	</ul>
+        	<h4>Adem&aacutes, proporcionará:</h4>
+        	<ol>
+          	<li>Ayuda para organizar cada semana.</li>
+          	<li>Posibilidad de añadir elementos a una sola semana.</li>
+        	</ol>
+        	<form method="" action="">
+          	<h4> Informaci&oacuten de usuarios interesados </h4>
+          	<fieldset>
+          	  	<legend>Grupo 7 </legend>
+            	<label>Nombre: </label>
+            	<input type="text" id="n" alt="Nombre"/>
+            		<br> </br>
+            		<label> Curso: </label>
+            		<select id= "c">
+              	<option> 1 </option>
+              	<option> 2 </option>
+              	<option> 3 </option>
+              	<option> 4 </option>
+            </select>
+            	<br> </br>
+            	<label>Información adicional: </label>
+            	<br> </br>
+            	<textarea id="ad"> </textarea>
+          	</fieldset>
+
+        	</form>
+        	<button onClick="miFuncion();">Run</button>
+        	<br></br>
+        	<em>Ultimo foro registrado:</em>
+        	<br></br>
+        	<table>
+          	<tr>
+            		<th>Nombre: </th>
+            		<td> <span class="output" id="lastUser"></span> </td>
+          	</tr>
+          	<tr>
+            		<th>Curso: </th>
+            		<td> <span class="output" id="lastCurso"></span> </td>
+          	</tr>
+          	<tr>
+            		<th>Descripcion: </th>
+            		<td> <span class="output" id="lastDesc"></span> </td>
+          	</tr>
+        	</table>
+        	<h4>Alguna de las empresas interesadas:</h4>
+        	<div class="links" >
+  		        <li><em>Link: <a class="colLink" href="http://www.eleconomista.es/" name="Economista">Economista</a></em></li>
+          </div>
+    		  <div class="links" ><li><em>Link: <a class="colLink2" href="https://www.game.es/" name="Game">Game</a></em></li></div>
+        </div>
+      </div>
+
+
+      <div class ="content2">
+        <div class = "tab">
+          <div class ="colC">
+          	<h1>Nuestra página: HORARIOS</h1>
+          </div>
+          <div class ="colC">
+        		<p>Nuestro proyecto es un <strong> horario virtual </strong>, que nos permitir&aacute organizar cada semana de forma adecuada. </p>
+            <p>Está desarrollado para una asignatura de la <div class="links" ><a class="colLink" href="https://www.ull.es/" name="ULL"> Universidad Laboral de la 			   Laguna</a></div></p>
+        		<h4>Esta herramienta nos permitirá:</h4>
+          </div>
+          <table>
+            <tr>
+            		<th>Objetivos</th>
+            		<th>¿Cómo inplementarlo?</th>
+            		<th>Ejemplo</th>
+            </tr>
+            <tr>
+            		<td>Almacenar todas las fechas</td>
+            		<td><br>Base de datos </td>
+            		<td>Un usuario que quiera guardar su día a día</td>
+            </tr>
+
+            	<tr>
+            		<td>Página no invasiva</td>
+            		<td><br>Opciones de personalización de las alertas</td>
+            		<td>Un usuario quiere que se le alerte constantemente de sus eventos, en cambio otro se conforma con una notificación ene el 			            teléfono</td>
+            </tr>
+
+            	<tr>
+            		<td>Envío de información a su correo</td>
+            		<td>Opción que permita enciar correo(sólo si el usuario lo requiere)</td>
+            		<td>Algunos usuarios querrán su información en su correo, sin embargo, otros no</td>
+            </tr>
+    	   </table>
+         	<div class = "img">
+        		<img class="img-responsive img-border" src="http://www.lemaridanza.es/wp-content/uploads/2017/08/horarios_large_large.jpg"alt="Omar" 		     	width="40%"></><br/>
+        	</div>
+        </div>
+      </div>
+
+      <div class = "content3">
+        <div class = "tab">
+          <div class="colC">
+            <h2>Ejemplos de calendarios:</h2>
+          </div>
+
+          <h4> Calendario de equipo de fútbol </h4>
           <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="Sesion.html">Iniciar/Registarse</a></li>
-              </ul>
-      </nav>
-    </header>
-    <div class = "content1">
-      <div class = "tab">
-      	<div class = "colC colTit">
-          <h2>¿Estás interesado?</h2>
-        </div>
+            <li><em>Descripción: Calendario del FC Barcelona de Fútbol.</em></li>
+            <div class="links" >
+              <li><em>Link:<a class="colLink" href="https://www.fcbarcelona.es/futbol/primer-equipo/calendario" name="Barcelona"> FC Barcelona</a></em></li>
+            </div>
+          </ul>
 
-     	  <h4>Esta herramienta nos permite:</h4>
-      	<ul>
-        	<li><em>Notificaciones</em></li>
-        	<li><em>Elementos de ayuda. </em></li>
-      	</ul>
-      	<h4>Adem&aacutes, proporcionará:</h4>
-      	<ol>
-        	<li>Ayuda para organizar cada semana.</li>
-        	<li>Posibilidad de añadir elementos a una sola semana.</li>
-      	</ol>
-      	<form method="" action="">
-        	<h4> Informaci&oacuten de usuarios interesados </h4>
-        	<fieldset>
-        	  	<legend>Grupo 7 </legend>
-          	<label>Nombre: </label>
-          	<input type="text" id="n" alt="Nombre"/>
-          		<br> </br>
-          		<label> Curso: </label>
-          		<select id= "c">
-            	<option> 1 </option>
-            	<option> 2 </option>
-            	<option> 3 </option>
-            	<option> 4 </option>
-          </select>
-          	<br> </br>
-          	<label>Información adicional: </label>
-          	<br> </br>
-          	<textarea id="ad"> </textarea>
-        	</fieldset>
+          <h4> Calendario de guaguas Tenerife </h4>
+          <ul>
+            <li><em>Descripción: Calendario de la parada 471 de Tenerife.</em></li>
+            <div class="links" >
+              <li><em>Link:<a class="colLink" href="http://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-471" name="Titsa">Titsa</a></em></li>
+            </div>
+          </ul>
 
-      	</form>
-      	<button onClick="miFuncion();">Run</button>
-      	<br></br>
-      	<em>Ultimo foro registrado:</em>
-      	<br></br>
-      	<table>
-        	<tr>
-          		<th>Nombre: </th>
-          		<td> <span class="output" id="lastUser"></span> </td>
-        	</tr>
-        	<tr>
-          		<th>Curso: </th>
-          		<td> <span class="output" id="lastCurso"></span> </td>
-        	</tr>
-        	<tr>
-          		<th>Descripcion: </th>
-          		<td> <span class="output" id="lastDesc"></span> </td>
-        	</tr>
-      	</table>
-      	<h4>Alguna de las empresas interesadas:</h4>
-      	<div class="links" >
-		        <li><em>Link: <a class="colLink" href="http://www.eleconomista.es/" name="Economista">Economista</a></em></li>
+          <h4> Calendario de vuelos Internacionales</h4>
+          <ul>
+            <li><em>Descripción: Calendario de aviones donde se puede elegir el origen y el destino.</em></li>
+            <div class="links" >
+              <li><em>Link:<a class="colLink2" href="http://www.vueling.com/es/reserva-tu-vuelo/calendario-de-precios" name="Vueling">Vueling</a></em></li>
+            </div>
+          </ul>
         </div>
-  		  <div class="links" ><li><em>Link: <a class="colLink2" href="https://www.game.es/" name="Game">Game</a></em></li></div>
       </div>
     </div>
-
-
-    <div class ="content2">
-      <div class = "tab">
-        <div class ="colC colTit">
-        	<h1>Nuestra página: HORARIOS</h1>
-        </div>
-        <div class ="colC colCorp">
-      		<p>Nuestro proyecto es un <strong> horario virtual </strong>, que nos permitir&aacute organizar cada semana de forma adecuada. </p>
-          <p>Está desarrollado para una asignatura de la <div class="links" ><a class="colLink" href="https://www.ull.es/" name="ULL"> Universidad Laboral de la 			   Laguna</a></div></p>
-      		<h4>Esta herramienta nos permitirá:</h4>
-        </div>
-        <table>
-          <tr>
-          		<th>Objetivos</th>
-          		<th>¿Cómo inplementarlo?</th>
-          		<th>Ejemplo</th>
-          </tr>
-          <tr>
-          		<td>Almacenar todas las fechas</td>
-          		<td><br>Base de datos </td>
-          		<td>Un usuario que quiera guardar su día a día</td>
-          </tr>
-
-          	<tr>
-          		<td>Página no invasiva</td>
-          		<td><br>Opciones de personalización de las alertas</td>
-          		<td>Un usuario quiere que se le alerte constantemente de sus eventos, en cambio otro se conforma con una notificación ene el 			            teléfono</td>
-          </tr>
-
-          	<tr>
-          		<td>Envío de información a su correo</td>
-          		<td>Opción que permita enciar correo(sólo si el usuario lo requiere)</td>
-          		<td>Algunos usuarios querrán su información en su correo, sin embargo, otros no</td>
-          </tr>
-  	   </table>
-       	<div class = "img">
-      		<img class="img-responsive img-border" src="http://www.lemaridanza.es/wp-content/uploads/2017/08/horarios_large_large.jpg"alt="Omar" 		     	width="40%"></><br/>
-      	</div>
-      </div>
-    </div>
-
-    <div class = "content3">
-      <div class = "tab">
-        <div class="colC colTit">
-          <h2>Ejemplos de calendarios:</h2>
-        </div>
-
-        <h4> Calendario de equipo de fútbol </h4>
-        <ul>
-          <li><em>Descripción: Calendario del FC Barcelona de Fútbol.</em></li>
-          <div class="links" >
-            <li><em>Link:<a class="colLink" href="https://www.fcbarcelona.es/futbol/primer-equipo/calendario" name="Barcelona"> FC Barcelona</a></em></li>
-          </div>
-        </ul>
-
-        <h4> Calendario de guaguas Tenerife </h4>
-        <ul>
-          <li><em>Descripción: Calendario de la parada 471 de Tenerife.</em></li>
-          <div class="links" >
-            <li><em>Link:<a class="colLink" href="http://www.titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-471" name="Titsa">Titsa</a></em></li>
-          </div>
-        </ul>
-
-        <h4> Calendario de vuelos Internacionales</h4>
-        <ul>
-          <li><em>Descripción: Calendario de aviones donde se puede elegir el origen y el destino.</em></li>
-          <div class="links" >
-            <li><em>Link:<a class="colLink" href="http://www.vueling.com/es/reserva-tu-vuelo/calendario-de-precios" name="Vueling">Vueling</a></em></li>
-          </div>
-        </ul>
-      </div>
-    </div>
-
   </body>
 
 

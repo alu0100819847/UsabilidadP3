@@ -1,14 +1,17 @@
 
 body {
   font-family: Arial, Helvetica, Verdana;
-  font-size: small; /*1.5 em pero quedaría muy grande*/
+  font-size: 1.5em; /*1.5 em pero quedaría muy grande*/
+  color: black;
 }
 
 div {
-	float: left	
+	float: left
 }
+
 #main-header {
-	background: #BCAAA4;
+	background-image: url("cabecera.jpg");
+  background-color: #BCAAA4;
 	color: white;
 	height: 80px;
   width: 750px;
@@ -16,11 +19,11 @@ div {
 	top: 0;
   position: fixed;
   flex: auto;
+  font-size: 13px;
 }
 
   	#main-header a {
     		color: white;
-    		padding-botton: 0.7em;
   	}
 
   		.site-name {
@@ -57,18 +60,19 @@ nav {
 
 		nav ul li {
 			display: inline-block;
-			line-height: 80px;
+			line-height: 70px;
       			flex: auto
 		}
 
 			nav ul li a {
 				display: block;
-				padding: 0 10px;
+				padding: 0.3em;
+        margin-bottom: 0.7em;
 				text-decoration: none;
 			}
 
 				nav ul li a:hover {
-					background: #333;
+					background: #6e8a9a73;
 				}
 
 footer {
@@ -81,6 +85,10 @@ footer {
   	position: fixed;
   	flex: auto;
 }
+p{
+  margin-top: 0.5em;
+}
+
 .tab {
   padding: 5px;
 }
@@ -96,9 +104,12 @@ footer {
   	position: fixed;
   	flex: auto;
    	overflow:scroll;
+
+    font-size: 13px;
 }
 
 .content2{
+  font-size: 13px;
   	background: #464545eb;
 	color: white;
 	height: 80%;
@@ -112,6 +123,7 @@ footer {
 }
 
 .content3{
+  font-size: 13px;
   	background: #464545eb;
 	color: white;
 	height: 80%;
@@ -126,25 +138,28 @@ footer {
 .colC {
   text-align: center;
 }
-.colC colTit {
-}
 
-.colC colCorp {
-}
 
-.colC colImg{
-  padding-top: 15px;
-}
-
-.colLink{
+.colLink:link{
   text-align: inherit;
   color: #6598dc;
 }
+.colLink:visited{
+  text-align: inherit;
+  color: red;
+}
 
-.colLink2{
+
+.colLink2:link{
   text-align: inherit;
   color: #6598dc;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.colLink2:visited{
+  text-align: inherit;
+  color: #6598dc;
+  padding-bottom: 30px;
 }
 
 table {
@@ -158,10 +173,21 @@ table, th, td {
     	border: 1px solid white;
 }
 
+table a {
+  color: green;
+}
+
 img{
   	height: 180px;
   	width: 80%;
-
+}
+a:link{
+  text-align: inherit;
+  color: #6598dc;
+}
+a:visited{
+  text-align: inherit;
+  color: red;
 }
 .img{
     text-align: center;
@@ -179,4 +205,8 @@ img{
 
 .links:hover{
   	background-color: #BCAAA4;
+}
+
+.contenedor {
+
 }
